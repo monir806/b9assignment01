@@ -1,3 +1,7 @@
+* {
+    font-family: Inter;
+}
+
 .banner-section {
     color: #faf6f6;
     text-align: center;
@@ -15,7 +19,7 @@
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    padding-top: 177px;
+    padding-top: 185px;
     padding-left: 530PX;
     padding-right: 533PX;
 }
@@ -24,8 +28,212 @@
     color: #1f0736;
     text-align: center;
     font-size: 90px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    padding-bottom: 177px;
     /* 131.944% */
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+#catagory {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.nw-year {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    background-image: url(Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jbtn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 128px;
+}
+
+.party {
+    width: 600px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+
+.detail {
+    padding-left: 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.time {
+    box-sizing: content-box;
+    display: block;
+    padding-left: 70%;
+    text-align: top;
+}
+
+span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.held {
+    width: 1320px;
+    height: 482px;
+    background-color: rgb(251, 201, 201);
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-j {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    background-color: #F00;
+    font-size: 20px;
+    font-family: Inter;
+    border: none;
+    border-radius: 5px;
+}
+
+.jamela {
+    padding-top: 100px;
+}
+
+.content {
+    display: flex;
+    margin: auto;
+}
+
+.ofertime {
+    width: 393px;
+    height: 128px;
+    margin: auto;
+}
+
+.font-primary {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.offerfor {
+    width: 393px;
+    height: 128px;
+    margin: auto;
+}
+
+.pic {
+    width: 463px;
+    height: 463px;
+    background-color: #FFF;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 48px;
+}
+
+.new {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.come {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.time2 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.func {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.holysale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holy2 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.funch {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
 }
