@@ -1,0 +1,31 @@
+.banner-section {
+    color: #faf6f6;
+    text-align: center;
+    font-family: Merriweather;
+    background-image: url("Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px 120px;
+}
+
+.intro {
+    color: #1f0736;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-left: 530PX;
+    padding-right: 533PX;
+}
+
+.about {
+    color: #1f0736;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
