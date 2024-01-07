@@ -237,3 +237,57 @@ span {
     line-height: 32px;
     /* 160% */
 }
+
+.rectangle {
+    display: block;
+    display: flex;
+    border-radius: 16px 16px 0px 0px;
+    margin: auto;
+}
+
+.discount {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 73.015px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.puf {
+    fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
+    background-blend-mode: screen;
+    mix-blend-mode: screen;
+}
+
+.bottom {
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: bottom;
+}
+
+.port {
+    margin: 50px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    margin: 50px;
+}
