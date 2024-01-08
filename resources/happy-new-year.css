@@ -321,6 +321,8 @@ span {
     border: none;
 }
 
+
+/* 
 .end {
     color: #FFF;
     font-size: 24px;
@@ -361,9 +363,23 @@ span {
 
 .end hr {
     margin-bottom: 30px;
+    width: 1320px;
+    height: 1px;
 }
 
 .image {
     width: 22.003px;
     height: 42.413px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+.last-container {
+    display: flex;
+}
+
+section {
+    position: left top;
 }
