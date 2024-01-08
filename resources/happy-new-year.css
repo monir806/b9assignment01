@@ -70,6 +70,7 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .jbtn {
@@ -105,10 +106,9 @@
 }
 
 .time {
-    box-sizing: content-box;
-    display: block;
-    padding-left: 70%;
-    text-align: top;
+    margin-left: 20px;
+    margin-top: 60px;
+    padding-left: 150px;
 }
 
 span {
@@ -238,13 +238,20 @@ span {
     /* 160% */
 }
 
-
-/* .rectangle {
-    display: block;
-    display: flex;
+.rectangle {
     border-radius: 16px 16px 0px 0px;
     margin: auto;
-} */
+    grid-area: auto;
+}
+
+.image-section {
+    margin: 0px;
+    display: flex;
+}
+
+.sec {
+    width: 1320px;
+}
 
 .discount {
     color: #FFF;
@@ -361,11 +368,7 @@ span {
     text-align: justify;
 }
 
-.end hr {
-    margin-bottom: 30px;
-    width: 1320px;
-    height: 1px;
-}
+
 
 .image {
     width: 22.003px;
@@ -377,9 +380,45 @@ span {
 } */
 
 .last-container {
-    display: flex;
+    height: 700px;
+    background-color: #0e0337;
+    color: #faf6f6;
 }
 
-section {
-    position: left top;
+.adress {
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.section {
+    padding-left: 50px;
+    padding-top: 60px;
+    margin-left: 700px;
+}
+
+.tm {
+    padding-top: 60px;
+    padding-left: 50px;
+    margin-left: 130px;
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+}
+
+.social-links {
+    width: 22.003px;
+    height: 42.413px;
+    display: flex;
+    padding-left: 45%;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    color: #FFF;
 }
