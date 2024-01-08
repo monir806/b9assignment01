@@ -238,12 +238,13 @@ span {
     /* 160% */
 }
 
-.rectangle {
+
+/* .rectangle {
     display: block;
     display: flex;
     border-radius: 16px 16px 0px 0px;
     margin: auto;
-}
+} */
 
 .discount {
     color: #FFF;
@@ -279,9 +280,6 @@ span {
     padding: 5px;
 }
 
-
-/* Clear floats after image containers */
-
 .row::after {
     content: "";
     clear: both;
@@ -293,8 +291,8 @@ span {
 }
 
 .news {
-    width: 1320px;
-    height: 616px;
+    width: 1600px;
+    height: 609px;
     flex-shrink: 0;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -321,4 +319,51 @@ span {
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: none;
+}
+
+.end {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    background-color: #070211;
+    display: flex;
+    margin: auto;
+    width: 1600px;
+    height: 609px;
+}
+
+.web {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 800px;
+}
+
+.font-ft {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 140px;
+    padding-top: 120px;
+}
+
+.contc {
+    padding-left: 800px;
+    padding-top: 120px;
+}
+
+.last {
+    text-align: justify;
+}
+
+.end hr {
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 22.003px;
+    height: 42.413px;
 }
